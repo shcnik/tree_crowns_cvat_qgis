@@ -1,0 +1,4 @@
+# First install GPU-compatible PyTorch + torchvision from https://pytorch.org/get-started/locally/
+-r requirements-core.txt
+deepforest==2.1.0
+segment-anything
