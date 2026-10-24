@@ -1,0 +1,5 @@
+# Install matching torch + torchvision first, then detectron2 from source,
+# and only after that run pip install -r requirements-detectree2.txt.
+# Linux / WSL2 strongly recommended (Detectron2 does not officially support Windows).
+-r requirements-core.txt
+detectree2>=2.1.2,<3
